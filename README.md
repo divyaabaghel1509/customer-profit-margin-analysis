@@ -24,6 +24,8 @@ Custom histograms and boxplots for each customer segment.
 KDE (Kernel Density Estimation) plots to show the smooth distribution.
 
 Seaborn, Matplotlib, and Pandas used for clear and interactive visualizations.
+Conclusion 📈
+The analysis provides insights into customer profit margin trends and helps in identifying segments that may need more attention to improve profitability.
 
 Technologies Used 🛠️
 Python 🐍
