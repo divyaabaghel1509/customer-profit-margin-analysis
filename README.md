@@ -1,43 +1,69 @@
-Customer Profit Margin Analysis
-Project Overview
-This project focuses on analyzing profit margins across different customer types: Corporate, Consumer, Small Business, and Home Office. The analysis aims to uncover significant differences in profit margins and provide insights into trends.
+Customer Profit Margin Analysis 📊💼
+Project Overview 🔍
+This project explores profit margin trends across various customer types: Corporate, Consumer, Small Business, and Home Office. The objective is to identify significant differences in profit margins, analyze the data distributions, and derive actionable insights for business strategies.
 
-Key Features
+Key Highlights ✨
 Exploratory Data Analysis (EDA):
 
-Data cleaning and preprocessing (handling missing values, type conversions).
+Data cleaning, missing value handling, and type conversion.
 
-Visualizations of profit margin distributions for each customer type.
+Visualized distributions of profit margins for each customer segment.
 
-Boxplots, histograms, and KDE plots to analyze distribution.
+Created histograms, boxplots, and KDE plots for deeper insights.
+
+Statistical Testing 🧑‍🔬:
+
+Shapiro-Wilk Test: Checked the normality of profit margin data.
+
+Mann-Whitney U Test: Compared profit margins between Corporate and Consumer customer groups to test for significant differences.
+
+Visualizations 🎨:
+
+Custom histograms and boxplots for each customer segment.
+
+KDE (Kernel Density Estimation) plots to show the smooth distribution.
+
+Seaborn, Matplotlib, and Pandas used for clear and interactive visualizations.
+
+Technologies Used 🛠️
+Python 🐍
+
+Libraries:
+
+Pandas (Data Processing)
+
+Seaborn (Visualization)
+
+Matplotlib (Visualization)
+
+SciPy (Statistical Tests)
+
+Steps Taken 📝
+Data Preprocessing:
+
+Cleaned the dataset by handling missing values.
+
+Converted columns to appropriate data types.
+
+Exploratory Data Analysis (EDA):
+
+Plotted histograms and boxplots to analyze the distribution of Profit Margin across different customer types.
 
 Statistical Testing:
 
-Shapiro-Wilk test to check the normality of profit margins.
+Used Shapiro-Wilk test to check for normality in data distribution.
 
-Mann-Whitney U Test to compare profit margins between Corporate and Consumer customers, identifying significant differences.
+Applied the Mann-Whitney U test to compare profit margins between Corporate and Consumer.
 
-Data Visualizations:
+Data Visualization:
 
-Customized histograms, boxplots, and KDE plots to provide clear insights into the profit margin trends.
+Created interactive plots using Seaborn and Matplotlib to visually represent the insights.
 
-Use of Seaborn, Matplotlib, and Pandas for effective data visualization.
+Analysis Insights 🔎
+Profit Margin Distribution:
 
-Technologies Used
-Python
+Visualizations reveal varying trends and distributions of profit margins across customer types.
 
-Libraries: Pandas, Seaborn, Matplotlib, SciPy
+Significant Differences:
 
-Statistical Analysis: Shapiro-Wilk Test, Mann-Whitney U Test
-
-Steps Taken
-Data Cleaning: Removed missing values and ensured correct data types.
-
-Exploratory Data Analysis (EDA): Analyzed and visualized data distributions.
-
-Statistical Testing: Checked normality and performed hypothesis testing.
-
-Visualization: Created meaningful plots to present the findings.
-
-Conclusion
-The analysis aims to provide insights into how profit margins differ across customer segments and whether these differences are statistically significant.
+The Mann-Whitney U test suggests whether profit margins differ significantly between Corporate and Consumer customer types.
